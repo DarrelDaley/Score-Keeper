@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="scorekeeper.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap" rel="stylesheet">
+
+
+    <title>Score Keeper</title>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div id="scoreBox" class="card">
+                <img src="images/soccerball.jpeg" class="card-img-top" alt="Dark board">
+                <div class="card-body">
+                    <p class="p-3 border bg-light card-title" id="title">Soccer Score Keeper</p>
+                    <h1 class="score"><span id="playerOne">0</span> to <span id="playerTwo">0</span></h1>
+                    <p>Use the buttons below to keep score:</p>
+                    <label for="score">Playing To</label>
+                    <select name="score" id="score" class="scoreSelect">
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                    </select>
+                </div>
+                <div class="btn-group  card-footer" role="group" aria-label="Basic example">
+                    <button type="button" id="addPlayerOneScore" class="btn btn-primary">+1 Player 1</button>
+                    <button type="button" id="addPlayerTwoScore" class="btn btn-success">+1 Player 2</button>
+                    <button type="button" id="resetBtn" class="btn btn-danger">Reset</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

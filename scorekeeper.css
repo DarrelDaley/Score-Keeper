@@ -1,0 +1,30 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 35px;
+  font-family: 'Roboto', sans-serif;}
+#scoreBox{
+    max-width: 500px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#title{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+    text-align: center;
+}
+
+.score{
+    font-size: 4em;
+    text-align: center;
+}
+
+.scoreSelect{
+    border-radius: 12px;
+    padding: 5px;
+    border: 2px outset blue;
+    box-shadow: blur;
+}
+
